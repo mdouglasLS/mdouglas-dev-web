@@ -1,7 +1,6 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { LandingComponent } from './landing.component';
-import { SocialMediaComponent } from './social-media/social-media.component';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {LandingComponent} from './landing.component';
 import {HomeComponent} from "./home/home.component";
 
 const routes: Routes = [
@@ -12,10 +11,6 @@ const routes: Routes = [
       {
         path: '',
         component: HomeComponent,
-      },
-      {
-        path: 'social-media',
-        component: SocialMediaComponent
       }
     ]
   }

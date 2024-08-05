@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  imageProfilePath: String = './assets/profile.webp';
+
+
 }

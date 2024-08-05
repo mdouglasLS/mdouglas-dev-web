@@ -1,12 +1,46 @@
-<div class="container">
-  <div class="flex">
-    <div>
-      <img src="./assets/profile.webp" class="" alt="">
-    </div>
+<app-section>
+  <div class="flex flex-col justify-center items-center sm:flex-row my-10 mx-auto p-4">
 
-    <div>
-      <h1 class="text-2xl">Michael Douglas</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto assumenda deserunt dolorem, facilis impedit magni obcaecati odio quaerat quasi recusandae reiciendis repudiandae tempore? Asperiores aut doloribus odio perspiciatis suscipit?</p>
+    <img src="{{imageProfilePath}}" class="rounded-2xl w-32 sm:w-60 md:w-[15rem] p-2  dark:shadow-none" alt="">
+
+    <div class="text-center">
+      <h2 class="font-bold text-2xl">Michael Douglas</h2>
+      <h6 class=" text-md">Desenvolvedor Full-Stack</h6>
+      <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700">
+
+      <div class="flex justify-center text-xl mt-4">
+        <a href="https://www.linkedin.com/in/mdouglaslopes/" target="_blank" class="p-1 m-1 w-10 h-10 content-center hover:bg-slate-600 hover:text-white rounded-full transition-colors duration-300"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/mdouglasLS" target="_blank" class="p-1 m-1 w-10 h-10 content-center hover:bg-slate-600 hover:text-white rounded-full transition-colors duration-300"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:contato@mdouglas.dev" class="p-1 m-1 w-10 h-10 content-center hover:bg-slate-600 hover:text-white rounded-full transition-colors duration-300"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+
+      <app-button styleButton="gradient-teal" class="mt-4">
+        <i class="me-2 text-xl fa-solid fa-file-arrow-down"></i>Download CV
+      </app-button>
     </div>
   </div>
-</div>
+</app-section>
+
+<!--  <div class="w-1/2 sm:w-5/6 p-2">-->
+<!--    <img src="assets/undraw_developer.svg" class="rounded-md sm:w-1/2 shadow-sm shadow-gray-500 dark:shadow-none" alt="">-->
+<!--  </div>-->
+
+<app-section title="Sobre">
+  <p class="text-balance">Sou Desenvolvedor Full-Stack, trabalho atualmente com as tecnologias Java,
+    Javascript/Typescript, e tenho trabalhado com os frameworks Spring
+    Boot e Angular.
+    No ecossistema Java, tenho trabalhado com a arquitetura em
+    Camadas, utilizando o Spring Boot como framework para o backend
+    e Angular para o frontend. No backend, já trabalhei também
+    com Hibernate como framework ORM para mapeamento objetorelacional e criei APIs RESTful orientadas a recursos, seguindo
+    as
+    melhores práticas do modelo Restful. Utilizo o Maven para fazer
+    o gerenciamento de dependências, garantindo a eficiência no
+    desenvolvimento e na integração de bibliotecas e dependências
+    externas em meus projetos. Além disso, possuo conhecimentos
+    em HTML, CSS, frameworks de design como Bootstrap e Tailwind
+    CSS e o framework Angular, os quais utilizo para criar interfaces
+    dinâmicas e visualmente atrativas, tornando uma ótima experiência
+    de usuário.
+  </p>
+</app-section>
