@@ -8,6 +8,7 @@ import {RouterOutlet} from '@angular/router';
 import {HomeComponent} from "./home/home.component";
 import {SectionComponent} from "../../components/section/section.component";
 import {ButtonComponent} from "../../components/button/button.component";
+import { ProjectCardComponent } from '../../components/project-card/project-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {ButtonComponent} from "../../components/button/button.component";
         LandingRoutingModule,
         HeaderComponent,
         SectionComponent,
-        ButtonComponent
+        ButtonComponent,
+        ProjectCardComponent
     ]
 })
 export class LandingModule { }
